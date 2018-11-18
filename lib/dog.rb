@@ -7,10 +7,9 @@ class Dog
   end
 
   def self.all
-    @@all.each do |name|
-      return name
+    @@all.each do |dog|
+      puts name
     end
-    puts @@all
   end
 
 
